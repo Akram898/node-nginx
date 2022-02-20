@@ -1,0 +1,20 @@
+{
+  "name": "node_crash_course",
+  "version": "1.0.0",
+  "description": "learn good",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node new-app.js",
+    "dev": "nodemon new-app.js"
+  },
+  "author": "Ahmed Akram",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "uuid": "^8.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
